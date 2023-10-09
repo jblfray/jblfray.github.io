@@ -21,4 +21,4 @@
 
 ## Contact
 - Email: jeanbaptistelf@gmail.com
-- LinkedIn: [Mon LinkedI](https://www.linkedin.com/in/jean-baptiste-laporte-fray-222733211/)
+- LinkedIn: [Mon LinkedIn](https://www.linkedin.com/in/jean-baptiste-laporte-fray-222733211/)
