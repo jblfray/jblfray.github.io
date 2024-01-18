@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Margaret Hamilton - Page d'accueil</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+
+    <header>
+        <h1>Margaret Hamilton</h1>
+        <p>Informaticienne et scientifique en informatique</p>
+
+        <a href="Margaret Hamilton.html">
+            <img src="img/Margaret_Hamilton_1966.jpg" alt="Margaret Hamilton en 1966">
+        </a>
+        <nav>
+            <ul>
+                <li><a href="#biographie">Biographie</a></li>
+                <li><a href="#travaux">Travaux & Publications</a></li>
+                <li><a href="#galerie">Galerie</a></li>
+                <li><a href="#apropos">À Propos</a></li>
+                <li><a href="#contact">Contact & Sources</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="biographie">
+        <section class="bouton-section" onclick="toggleContenu('contenu-section')">
+        <h2>Biographie</h2>
+        <div id="contenu-section" class="contenu-section">
+        <p>Le nom de Margaret Hamilton est longtemps resté dans l’inconnu. Même encore aujourd’hui, la plupart des gens ignorent son histoire et ce qu’elle a réellement accompli. Son travail a été crucial pour la réussite de la mission Apollo, et a ouvert la voie à de nombreuses autres avancées dans le domaine de la programmation spatiale. Ce n’est pas moins de 27 ans après son départ de la NASA, qu’elle recevra une distinction de l’agence spatiale pour son immense travail et toutes ses contributions. Aujourd'hui, Margaret Hamilton est reconnue comme l'une des pionnières de la programmation informatique, et continue d'inspirer de nombreuses femmes dans le domaine des sciences et de l’ingénierie informatique.</p>
+        <p>Margaret Hamilton est née le 17 août 1936 dans l’Indiana. Très vite, à partir de ses 20 ans Margaret va se trouver une vocation pour les chiffres, et notamment les mathématiques dans lesquels elle va entreprendre une licence à l'université de Michigan.</p>
+        <p>Nous sommes en 1960 lorsqu’elle décroche son diplôme, et à 24 ans déjà elle se trouve un poste de programmeur particulièrement bien placé au MIT, l’un des instituts universitaires les plus prestigieux au monde.</p>
+        <p>Pour contextualiser, à cette époque et en particulier aux Etats-Unis, il est très rare de retrouver des femmes dans le domaine mathématique et scientifique. Pour Margaret, ce poste au MIT relève d’un accomplissement que peu de femmes sont capables de réaliser.</p>
+    </div>
+    </section>
+
+    <section id="travaux">
+        <section class="bouton-section-travaux" onclick="toggleContenu('contenu-section-travaux')">
+        <h2>Travaux & Publications</h2>
+        <div id="contenu-section-travaux" class="contenu-section-travaux">
+        <p>De par son talent et ses compétences démontrés à plusieurs reprises, c’est elle qui va être désignée pour développer les logiciels du programme spatial Apollo, un projet extrêmement ambitieux. Autant dire que Margaret a une grosse charge de travail sur les épaules, heureusement elle est bien entourée.</p>
+        <p>Grâce à un travail en équipe dirigé par Margaret, le projet Apollo 11 va pouvoir bénéficier, en plus de nombreux logiciels uniques développés exprès pour le projet, d’un système de priorisation des tâches, une addition qui va s’avérer cruciale pour permettre aux astronautes d'atterrir sur la lune. La suite, nous la connaissons tous, c’est le 21 juillet 1969 que Neil Armstrong pose le premier pas sur la lune, un exploit qui n’aurait pas été possible sans le travail de Margaret Hamilton.</p>
+        <p>Il est important de souligner qu’à l’époque, le terme d’ingénierie informatique n'existait tout simplement pas, et c’est Margaret Hamilton elle-même qui a jugé bon de distinguer le travail qu’elle et son équipe faisaient, qui était tout aussi important et représentait autant que d’autres travaux effectués sur le projet Apollo.</p>
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/uGqIjYzmAXc?si=E4lAr_BpbHZ7kyEu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> <p><em>Margaret Hamilton et l'ingénierie informatique</em></p>
+    </div>
+
+    </section>
+
+    <section id="galerie">
+        <section class="bouton-section-galerie" onclick="toggleContenu('contenu-section-galerie')">
+        <h2>Galerie</h2>
+        <div id="contenu-section-galerie" class="contenu-section-galerie">
+        <div class="gallery-item">
+            <img src="img/margaret_hamilton_restoration.jpg" alt="Margaret Hamilton et son programme sur papier">
+            <p>Margaret Hamilton et son programme sur papier</p>
+        </div>
+
+        <div class="gallery-item">
+            <img src="img/margaret_hamilton_apollo.jpg" alt="Margaret Hamilton avec des piles de code imprimé">
+            <p>Margaret Hamilton pendant la mission Apollo</p>
+        </div>
+        </div>
+    </section>
+
+    <section id="apropos">
+        <section class="bouton-section-apropos" onclick="toggleContenu('contenu-section-apropos')">
+        <h2>À Propos</h2>
+        <div id="contenu-section-apropos" class="contenu-section-apropos">
+        <p>Ce site a été créé pour rendre hommage à Margaret Hamilton et mettre en lumière ses contributions exceptionnelles dans le domaine de l'informatique. Le design sobre et élégant vise à refléter la rigueur et l'innovation qui caractérisent son travail.</p>
+   </div>
+    </section>
+
+    <section id="contact">
+        <section class="bouton-section-sources" onclick="toggleContenu('contenu-section-sources')">
+        <h2>Contact & Sources</h2>
+        <div id="contenu-section-sources" class="contenu-section-sources">
+        <p>Sources :
+            <a href="https://fr.vikidia.org/wiki/Margaret_Hamilton_(scientifique)" target="_blank">Vikidia</a>
+            <a href="https://dailygeekshow.com/margaret-hamilton-nasa-apollo-logiciel-invention/" target="_blank">Daily Geek Show</a>
+            <a href="https://www.pariszigzag.fr/paris-au-quotidien/margaret-hamilton-la-femme-a-lorigine-des-premiers-pas-de-lhomme-sur-la-lune" target="_blank">Paris Zigzag</a>
+     Contact : <a href="mailto:jeanbaptistelf@gmail.com">jeanbaptistelf@gmail.com</a></p>
+        </p>
+  </div>
+    </section>
+
+    <footer>
+        <p> 2023 Margaret Hamilton | Site créé par Jean-Baptiste Laporte-Fray</p>
+    </footer>
+
+</body>
+</html>
